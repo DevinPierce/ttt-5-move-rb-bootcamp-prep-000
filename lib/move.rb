@@ -10,7 +10,7 @@ end
 def input_to_index
   gets user_input
   converted_input = user_input.to_i - 1
-  converted_input
+  return converted_input
 end
 
 def move (board_array, index_in_board, player_char = "X")
